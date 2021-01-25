@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<style>
+    :root {
+        --example-global-variable:true;
+    }
+    #title {
+        background-color: #C05746;
+        color: white;
+        font-family: Righteous,Arial;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .phrase-box {
+        margin: auto;
+        width: 50%;
+        background-color: #A63A50;
+        color: white;
+        font-family: Righteous,Arial;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .border-dotted {
+        border-color: #503047;
+        border-width: 5px;
+        border-style: dotted;
+        border-radius: 15px;
+    }
+
+    .border-dashed {
+        border-color: #503047;
+        border-width: 5px;
+        border-style: dashed;
+        border-radius: 15px;
+    }
+
+    body {
+        background-color: #503047;
+    }
+    --small-text-variable {
+        color:cornsilk;
+    }
+</style>
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!-- This code is part of style and customizes the input checkbox types
+    input[type=checkbox] {
+        background-color: aqua;
+        color: blueviolet;
+        border: 5px;
+        border-color: blanchedalmond;
+    }
+-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>The Depot</title>
+</head>
+<body>
+    <div id="title">
+        <h1>  The Depot</h1>
+    </div><br /><br />
+    <!--Inherits two classes and override some colors-->
+    <div class="phrase-box border-dotted" style="background:#151515; color:yellow">
+        <h2>White Blimp</h2>
+        <p>Everyone was curious about the large white blimp that appeared overnight.</p>
+    </div><br /><br />
+
+    <div class="phrase-box border-dashed">
+        <h2>Generations</h2>
+        <p>Three generations with six decades of life experience.</p>
+    </div><br /><br />
+
+    <div class="phrase-box border-dotted" style="background:#3a6aa6; color:#87bcff">
+        <h2>Current</h2>
+        <p>The wake behind the boat told of the past while the open sea for told life in the unknown future.</p>
+    </div><br /><br />
+
+    <div class="phrase-box border-dashed" style="background:#943aa6; color:#ed78ff">
+        <h2>Art</h2>
+        <p>Art doesn't have to be intentional.</p>
+    </div><br /><br />
+
+    <div class="phrase-box border-dotted">
+        <h2>Perception</h2>
+        <p>Each person who knows you has a different perception of who you are.</p>
+    </div><br /><br />
+
+    <div>Top</div>
+</body>
+</html>
